@@ -157,8 +157,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
+**EA Soft Lab - A sister concern of EA Inc.**
+
+- **Website**: [www.easoftlab.com](https://www.easoftlab.com)
+- **GitHub**: [github.com/workeainc](https://github.com/workeainc)
+- **Email**: [contact@easoftlab.com](mailto:contact@easoftlab.com)
 - **Issues**: [GitHub Issues](https://github.com/workeainc/Bluebeam-Revu-dynamic-stamp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/workeainc/Bluebeam-Revu-dynamic-stamp/discussions)
 - **Documentation**: [Implementation Guide](IMPLEMENTATION_GUIDE.md)
 
 ## 🔗 Related Projects
@@ -168,4 +172,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the Bluebeam Revu community**
+**Built with ❤️ by EA Soft Lab**
+
+[![GitHub](https://img.shields.io/badge/GitHub-workeainc-grey.svg)](https://github.com/workeainc) [![Website](https://img.shields.io/badge/Website-easoftlab.com-blue.svg)](https://www.easoftlab.com)
