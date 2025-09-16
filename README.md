@@ -162,6 +162,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Website**: [www.easoftlab.com](https://www.easoftlab.com)
 - **GitHub**: [github.com/workeainc](https://github.com/workeainc)
 - **Email**: [contact@easoftlab.com](mailto:contact@easoftlab.com)
+- **Telegram**: [@emranulhsn](https://t.me/emranulhsn)
+- **WhatsApp**: [+8801973772272](https://wa.me/8801973772272)
 - **Issues**: [GitHub Issues](https://github.com/workeainc/Bluebeam-Revu-dynamic-stamp/issues)
 - **Documentation**: [Implementation Guide](IMPLEMENTATION_GUIDE.md)
 
