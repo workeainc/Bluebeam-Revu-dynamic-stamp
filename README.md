@@ -1,10 +1,29 @@
-# Bluebeam Revu Dynamic Stamp Input Script
+# 🏗️ Bluebeam Revu Dynamic Stamp Input Script
+
+<div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bluebeam Revu](https://img.shields.io/badge/Bluebeam-Revu-blue.svg)](https://www.bluebeam.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES5-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![EA Soft Lab](https://img.shields.io/badge/EA%20Soft%20Lab-Professional-green.svg)](https://www.easoftlab.com)
 
-A professional JavaScript solution for Bluebeam Revu dynamic stamps that automatically prompts users for input upon placement and stores responses in custom Markups List columns.
+**Professional JavaScript solution for Bluebeam Revu dynamic stamps**
+
+*Automatically prompts users for input upon placement and stores responses in custom Markups List columns*
+
+[🚀 Quick Start](#-quick-start) • [📖 Documentation](#-detailed-documentation) • [🛠️ Support](#-support) • [💬 Contact](#-contact)
+
+</div>
+
+---
+
+## 🎯 **What This Solves**
+
+Transform your Bluebeam Revu workflow with intelligent dynamic stamps that:
+- **Capture user input instantly** when stamps are placed
+- **Automatically populate custom columns** in Markups List
+- **Eliminate manual data entry** errors and inconsistencies
+- **Streamline inspection and approval processes** across teams
 
 ## 🎯 Overview
 
@@ -65,11 +84,10 @@ Bluebeam-Revu-dynamic-stamp/
    - Go to **Forms** tab → **JavaScript Editor**
    - Select your form field → **Calculate** tab → **Custom calculation script**
 
-4. **Copy and customize the script**
+4. **Copy the ready-to-use script**
    ```javascript
-   // Replace these placeholders:
-   "UserInputField" → Your actual form field name
-   "YOUR_COLUMN_NAME" → Your custom Text column name
+   // Script is pre-configured for "CheckedBy" field and column
+   // No customization needed - works out of the box!
    ```
 
 5. **Test the implementation**
@@ -83,12 +101,15 @@ For comprehensive setup instructions, troubleshooting, and advanced configuratio
 
 ## 🔧 Configuration
 
-### Required Customizations
+### ✅ **Pre-Configured Setup**
 
-| Placeholder | Description | Example |
-|-------------|-------------|---------|
-| `"UserInputField"` | Form field name in your stamp | `"InspectorName"` |
-| `"YOUR_COLUMN_NAME"` | Custom Text column name | `"Inspector"` |
+| Component | Value | Status |
+|-----------|-------|--------|
+| **Form Field Name** | `"CheckedBy"` | ✅ Ready |
+| **Custom Column Name** | `"CheckedBy"` | ✅ Ready |
+| **Script Configuration** | Pre-configured | ✅ Ready |
+
+**No customization required** - the script works immediately with standard "CheckedBy" field and column names.
 
 ### Column Setup Requirements
 
@@ -155,17 +176,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The Bluebeam community for best practices and examples
 - Contributors and testers who helped refine this solution
 
-## 📞 Support
+## 🛠️ Support
 
-**EA Soft Lab - A sister concern of EA Inc.**
+<div align="center">
 
-- **Website**: [www.easoftlab.com](https://www.easoftlab.com)
-- **GitHub**: [github.com/workeainc](https://github.com/workeainc)
-- **Email**: [contact@easoftlab.com](mailto:contact@easoftlab.com)
-- **Telegram**: [@emranulhsn](https://t.me/emranulhsn)
-- **WhatsApp**: [+8801973772272](https://wa.me/8801973772272)
-- **Issues**: [GitHub Issues](https://github.com/workeainc/Bluebeam-Revu-dynamic-stamp/issues)
-- **Documentation**: [Implementation Guide](IMPLEMENTATION_GUIDE.md)
+### **EA Soft Lab** - *A sister concern of EA Inc.*
+
+**Professional Software Development & Consulting**
+
+[![Website](https://img.shields.io/badge/Website-easoftlab.com-blue.svg)](https://www.easoftlab.com)
+[![GitHub](https://img.shields.io/badge/GitHub-workeainc-grey.svg)](https://github.com/workeainc)
+[![Email](https://img.shields.io/badge/Email-contact@easoftlab.com-red.svg)](mailto:contact@easoftlab.com)
+
+</div>
+
+### 📞 **Get Help**
+
+| Channel | Link | Response Time |
+|---------|------|---------------|
+| **🌐 Website** | [www.easoftlab.com](https://www.easoftlab.com) | 24 hours |
+| **📧 Email** | [contact@easoftlab.com](mailto:contact@easoftlab.com) | 24 hours |
+| **💬 Telegram** | [@emranulhsn](https://t.me/emranulhsn) | 2-4 hours |
+| **📱 WhatsApp** | [+8801973772272](https://wa.me/8801973772272) | 2-4 hours |
+| **🐛 Issues** | [GitHub Issues](https://github.com/workeainc/Bluebeam-Revu-dynamic-stamp/issues) | 48 hours |
+
+### 📚 **Documentation**
+
+- **📖 Implementation Guide**: [Complete Setup Instructions](IMPLEMENTATION_GUIDE.md)
+- **🔧 Troubleshooting**: See guide for common issues and solutions
+- **💡 Examples**: Ready-to-use code with real-world applications
 
 ## 🔗 Related Projects
 
@@ -174,6 +213,33 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by EA Soft Lab**
+<div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-workeainc-grey.svg)](https://github.com/workeainc) [![Website](https://img.shields.io/badge/Website-easoftlab.com-blue.svg)](https://www.easoftlab.com)
+## 💼 **Professional Services**
+
+**EA Soft Lab** specializes in custom software solutions for construction, engineering, and project management workflows.
+
+### 🚀 **What We Offer**
+- **Custom Bluebeam Scripts** - Tailored solutions for your specific needs
+- **Workflow Automation** - Streamline your document processes
+- **Integration Services** - Connect Bluebeam with your existing systems
+- **Training & Support** - Get your team up to speed quickly
+
+### 📈 **Why Choose EA Soft Lab?**
+- ✅ **Proven Expertise** in Bluebeam Revu development
+- ✅ **Fast Turnaround** - Most projects completed within 48 hours
+- ✅ **Ongoing Support** - We're here when you need us
+- ✅ **Competitive Pricing** - Professional quality at fair rates
+
+**Ready to transform your Bluebeam workflow?** [Get in touch today!](https://www.easoftlab.com)
+
+---
+
+**Built with ❤️ by EA Soft Lab** | *A sister concern of EA Inc.*
+
+[![GitHub](https://img.shields.io/badge/GitHub-workeainc-grey.svg)](https://github.com/workeainc) 
+[![Website](https://img.shields.io/badge/Website-easoftlab.com-blue.svg)](https://www.easoftlab.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@emranulhsn-blue.svg)](https://t.me/emranulhsn)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+8801973772272-green.svg)](https://wa.me/8801973772272)
+
+</div>
