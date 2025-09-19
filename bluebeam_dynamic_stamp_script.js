@@ -5,8 +5,8 @@
 // and stores the response in a custom Text column in the Markups List
 //
 // INSTRUCTIONS:
-// 1. Replace "YOUR_COLUMN_NAME" with your actual custom Text column name
-// 2. Replace "UserInputField" with your form field name if different
+// 1. This script is configured for field name "CheckedBy" and column name "CheckedBy"
+// 2. If your field/column names are different, update lines 29 and 39 accordingly
 // 3. Paste this code in the form field's calculation script
 // ===============================================
 
@@ -26,7 +26,7 @@ if (event.source.forReal) {
     if (userResponse !== null && userResponse !== "") {
         
         // Update the visual display on the stamp
-        this.getField("UserInputField").value = userResponse;
+        this.getField("CheckedBy").value = userResponse;
         
         // Write to the custom Text column in Markups List
         try {
@@ -35,8 +35,8 @@ if (event.source.forReal) {
             
             if (annot) {
                 // Set the custom data for the column
-                // REPLACE "YOUR_COLUMN_NAME" with your actual column name
-                annot.setCustomData("YOUR_COLUMN_NAME", userResponse);
+                // Writing to the "CheckedBy" custom column
+                annot.setCustomData("CheckedBy", userResponse);
             }
         } catch (error) {
             // Error handling - could add logging here if needed
